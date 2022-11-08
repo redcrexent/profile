@@ -17,7 +17,7 @@ function Header({ }: Props) {
                 />
            
             <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>
-                let's connect
+                let&apos;s connect
             </p>
             </div>
         </header>
