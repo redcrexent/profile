@@ -1,14 +1,15 @@
 import Head from 'next/head'
+import Header from '../components/Header'
+import type { NextPage } from 'next'
 
-export default function Home() {
+const Home: NextPage = () => {
   return (
     <>
       <Head>
         <title>Taha Akhtar&apos;s portfolio</title>
         <link rel="shortcut icon" href="/favicons/favicon.ico" />
       </Head>
-
-      {/* header */}
+      <Header />
       {/* hero  */}
       {/* about  */}
 
@@ -20,3 +21,5 @@ export default function Home() {
     </>
   )
 }
+
+export default Home
