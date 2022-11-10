@@ -4,7 +4,7 @@ import BigCircle from './BigCircle';
 
 type Props = {}
 
-export default function ({ }: Props) {
+export default  function  Hero({ }: Props) {
 
     const [text, count] = useTypewriter(
         {
