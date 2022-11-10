@@ -5,10 +5,6 @@ import { motion } from "framer-motion"
 type Props = {}
 
 function Header({ }: Props) {
-
-    const [hover, sethover] = useState("gray");
-
-
     return (
         <header className='sticky top-0 flex justify-between max-w-7xl mx-auto p-5 z-20 xl:items-center'>
             <motion.div

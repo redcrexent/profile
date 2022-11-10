@@ -13,11 +13,11 @@ const Home: NextPage = () => {
         <link rel="preconnect" href="https://fonts.gstatic.com" />
         <link href="https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400&display=swap" rel="stylesheet" />
       </Head>
-      <div className='bg-black text-white h-screen'>
+      <div className='bg-black text-white h-screen snap-y snap-mandatory overflow-y-scroll z-0'>
         <Header />
-
-        <Hero />
-
+        <section id="hero" className='snap-center'>
+          <Hero />
+        </section>
       </div>
       {/* about  */}
 

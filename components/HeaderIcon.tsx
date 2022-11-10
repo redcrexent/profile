@@ -8,11 +8,11 @@ type Props = {
 
 export default function HeaderIcon({ URL, Network }: Props) {
 
-    const [hover, sethover] = useState("gray");
+    const [hover, stover] = useState("gray");
     return (
         <>
-            {URL != null && <SocialIcon url={URL} fgColor={hover} bgColor='transparent' onMouseOver={() => sethover("white")} onMouseLeave={() => sethover("gray")} />}
-            {Network != null && <SocialIcon network={Network} fgColor={hover} bgColor='transparent' onMouseOver={() => sethover("white")} onMouseLeave={() => sethover("gray")} />}
+            {URL != null && <SocialIcon url={URL} fgColor={hover} bgColor='transparent' onMouseOver={() => stover("white")} onMouseLeave={() => stover("gray")} />}
+            {Network != null && <SocialIcon network={Network} fgColor={hover} bgColor='transparent' onMouseOver={() => stover("white")} onMouseLeave={() => stover("gray")} />}
   
         </>
     )
