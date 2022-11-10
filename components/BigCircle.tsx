@@ -12,7 +12,7 @@ function BigCircle({ }: Props) {
         animate={{
             scale:[1,2,1.5,1],
             opacity:[0.2,0.6,0.8,1],
-
+            borderRadius:["20%","50%","20%"]
         }}
         
         transition={{
@@ -20,8 +20,8 @@ function BigCircle({ }: Props) {
         }}
         >
             <div className='relative flex justify-center items-center'>
-                <div className='absolute border mt-52 border-gray-500 rounded-full h-[100px] w-[100px] animate-ping'></div>
-                <div className='absolute border mt-52 border-gray-500 rounded-full h-[300px] w-[300px] animate-pulse'></div>
+                <div className='absolute mt-20 border border-gray-500 rounded-full h-[100px] w-[100px] animate-ping'></div>
+                <div className='absolute mt-20 border border-gray-500 rounded-full h-[500px] w-[500px] animate-pulse'></div>
             </div>
 
         </motion.div>

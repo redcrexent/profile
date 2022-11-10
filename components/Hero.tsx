@@ -1,6 +1,7 @@
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
 import BigCircle from './BigCircle';
+import Image from 'next/image';
 
 type Props = {}
 
@@ -16,12 +17,14 @@ export default  function  Hero({ }: Props) {
 
     return (
 
-        <div className='h-screen flex flex-col space-y-8 items-center justify-center text-center
+        <div className='h-screen flex flex-col items-center justify-center text-center
         overflow-hidden'>
             <BigCircle />
+            <Image src="/assets/profile.jpg" className='relative rounded-full object-cover'  width={100} height={100} alt='Taha' />
+            
             <h1>
                 <span>{text}</span>
-                <Cursor cursorColor='Green' />
+                <Cursor cursorColor='gray' />
             </h1>
         </div>
     )
