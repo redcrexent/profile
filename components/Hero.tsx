@@ -1,5 +1,6 @@
 import React from 'react'
 import { Cursor, useTypewriter } from 'react-simple-typewriter'
+import BigCircle from './BigCircle';
 
 type Props = {}
 
@@ -16,10 +17,11 @@ export default function ({ }: Props) {
     return (
 
         <>
-        <h1>
-            <span>{text}</span>
-            <Cursor cursorColor='Green' />
-        </h1>
+            <BigCircle />
+            <h1>
+                <span>{text}</span>
+                <Cursor cursorColor='Green' />
+            </h1>
         </>
     )
 }
