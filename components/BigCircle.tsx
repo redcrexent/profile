@@ -20,7 +20,7 @@ function BigCircle({ }: Props) {
         }}
         >
             <div className='relative flex justify-center items-center'>
-                <div className='absolute mt-20 border border-gray-500 rounded-full h-[100px] w-[100px] animate-ping'></div>
+                <div className='absolute mt-20 border border-gray-500 rounded-full h-[200px] w-[200px] animate-ping'></div>
                 <div className='absolute mt-20 border border-gray-500 rounded-full h-[500px] w-[500px] animate-pulse'></div>
             </div>
 
