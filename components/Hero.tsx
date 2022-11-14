@@ -9,7 +9,7 @@ export default  function  Hero({ }: Props) {
 
     const [text, count] = useTypewriter(
         {
-            words: ["Hey, This is Taha Akhtar", "Loves to build solution that scale", "Writes a lot of code"],
+            words: ["Hey, This is Taha Akhtar", "Loves to build solution that scales", "Writes a lot of code"],
             loop: true,
             delaySpeed: 2000
         }
@@ -21,9 +21,11 @@ export default  function  Hero({ }: Props) {
         overflow-hidden'>
             <BigCircle />
             <Image src="/assets/profile.jpg" className='relative rounded-full object-cover'  width={100} height={100} alt='Taha' />
-            
-            <h1>
-                <span>{text}</span>
+            <h2 className="text-sm text-gray-500 pb-2 tracking-[7px] uppercase pt-2">
+                Software Engineer
+                </h2>
+            <h1 className='text-3xl lg:text-4xl font-semibold px-10'>
+                <span className='mr-3' >{text}</span>
                 <Cursor cursorColor='gray' />
             </h1>
         </div>
