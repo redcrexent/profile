@@ -20,7 +20,7 @@ export default  function  Hero({ }: Props) {
         <div className='h-screen flex flex-col items-center justify-center text-center
         overflow-hidden'>
             <BigCircle />
-            <Image src="/assets/profile.jpg" className='relative rounded-full object-cover'  width={100} height={100} alt='Taha' />
+            <Image src="https://tahaakhtar.com/assets/profile.jpg" className='relative rounded-full object-cover'  width={100} height={100} alt='Taha' />
             <h2 className="text-sm text-gray-500 pb-2 tracking-[7px] uppercase pt-2">
                 Software Engineer
                 </h2>
